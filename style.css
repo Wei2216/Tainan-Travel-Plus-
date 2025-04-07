@@ -1,0 +1,532 @@
+@font-face {
+    font-family: 'OpenHunInn';
+    src: url('./font/jf-openhuninn-2.1.ttf') format('truetype');
+    ;
+}
+
+@font-face {
+    font-family: 'GenWan';
+    src: url('./font/GenWanMin2-R.ttc') format('truetype');
+    ;
+}
+
+/* 改btn顏色 */
+
+.btn-primary {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color31);
+    /* 金黃色 */
+    border-color: var(--color31);
+}
+
+.btn-primary:hover {
+    background-color: var(--color32);
+    /* 深金黃色 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-secondary {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color27);
+    /* 墨綠 */
+    border-color: var(--color27);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color28);
+    /* 更深墨綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-success {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color20);
+    /* 椰林綠（柔和） */
+    border-color: var(--color20);
+}
+
+.btn-success:hover {
+    background-color: var(--color08);
+    /* 深椰林綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-danger {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color11);
+    /* 廟宇紅 */
+    border-color: var(--color11);
+}
+
+.btn-danger:hover {
+    background-color: var(--color29);
+    /* 深廟宇紅 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-warning {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color21);
+    /* 黃昏橘（柔和） */
+    border-color: var(--color21);
+}
+
+.btn-warning:hover {
+    background-color: var(--color09);
+    /* 深黃昏橘 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-info {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color19);
+    /* 鹽田青（柔和） */
+    border-color: var(--color19);
+}
+
+.btn-info:hover {
+    background-color: var(--color12);
+    /* 深鹽田青 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-light {
+    color: var(--color27);
+    /* 墨綠 */
+    background-color: var(--color18);
+    /* 豆花白（柔和） */
+    border-color: var(--color18);
+}
+
+.btn-light:hover {
+    background-color: var(--color27);
+    /* 深墨綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-dark {
+    color: var(--color34);
+    /* 白色 */
+    background-color: var(--color30);
+    /* 茶葉綠 */
+    border-color: var(--color30);
+}
+
+.btn-dark:hover {
+    background-color: var(--color29);
+    /* 深茶葉綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-link {
+    color: var(--color31);
+    /* 金黃色 */
+    background-color: transparent;
+    border: none;
+}
+
+.btn-link:hover {
+    color: var(--color34);
+    /* 白色 */
+    text-decoration: underline;
+}
+
+/* Outline 按鈕樣式 */
+.btn-outline-primary {
+    color: var(--color31);
+    /* 金黃色 */
+    border-color: var(--color31);
+    background-color: var(--color18);
+    /* 淡化的金黃色 */
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--color31);
+    /* 深金黃色 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-secondary {
+    color: var(--color27);
+    /* 墨綠 */
+    border-color: var(--color27);
+    background-color: var(--color19);
+    /* 淡化的鹽田青 */
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--color27);
+    /* 深墨綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-success {
+    color: var(--color20);
+    /* 椰林綠（柔和） */
+    border-color: var(--color20);
+    background-color: var(--color18);
+    /* 淡化的椰林綠 */
+}
+
+.btn-outline-success:hover {
+    background-color: var(--color08);
+    /* 深椰林綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-danger {
+    color: var(--color11);
+    /* 廟宇紅 */
+    border-color: var(--color11);
+    background-color: var(--color23);
+    /* 淡化的廟宇紅 */
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--color29);
+    /* 深廟宇紅 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-warning {
+    color: var(--color21);
+    /* 黃昏橘（柔和） */
+    border-color: var(--color21);
+    background-color: var(--color18);
+    /* 淡化的黃昏橘 */
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--color09);
+    /* 深黃昏橘 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-info {
+    color: var(--color19);
+    /* 鹽田青（柔和） */
+    border-color: var(--color19);
+    background-color: var(--color18);
+    /* 淡化的鹽田青 */
+}
+
+.btn-outline-info:hover {
+    background-color: var(--color12);
+    /* 深鹽田青 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-light {
+    color: var(--color18);
+    /* 豆花白（柔和） */
+    border-color: var(--color18);
+    background-color: var(--color18);
+    /* 淡化的豆花白 */
+}
+
+.btn-outline-light:hover {
+    background-color: var(--color27);
+    /* 深墨綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+.btn-outline-dark {
+    color: var(--color30);
+    /* 茶葉綠 */
+    border-color: var(--color30);
+    background-color: var(--color36);
+    /* 淡化的茶葉綠 */
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color29);
+    /* 深茶葉綠 */
+    color: var(--color34);
+    /* 白色 */
+}
+
+
+
+/* body設置 */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'OpenHunInn', 'GenWan', sans-serif;
+}
+ /* 填滿剩餘空間 */
+
+#main-content {
+    flex: 1;
+}
+
+
+/* index-section03 */
+
+/* card 外層容器的基本樣式設定 */
+.index_box03,
+.motor_box01,
+.attr_box01,
+.food_box01,
+.hand_gift_box01 {
+    position: relative;
+    overflow: hidden;
+    /* 確保卡片內容不會超出邊界 */
+    border-radius: 50%;
+    /* 設置圓形 */
+    border: 10px solid var(--color20);
+    /* 椰林綠（柔和） */
+    background-color: var(--color06);
+    /* 豆花白 */
+    ;
+    width: 240px;
+    /* 設定固定寬度 */
+    height: 240px;
+    /* 設定固定高度 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* 增加陰影 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* 增加卡片的動畫效果 */
+    margin: 0 auto;
+    /* 讓卡片居中 */
+
+
+
+}
+
+/* 圖片樣式設定 */
+.index_box03 img,
+.motor_box01 img,
+.attr_box01 img,
+.food_box01 img,
+.hand_gift_box01 img {
+    width: 100%;
+    /* 讓圖片寬度填滿父容器 */
+    height: 100%;
+    /* 設定圖片的高度填滿父容器 */
+    object-fit: cover;
+    /* 保持圖片比例並裁切 */
+    border-radius: 50%;
+    /* 設定圖片為圓形 */
+}
+
+
+.detail_img {
+    border: 3px solid var(--color09);
+    /* 黃昏橘 */
+    border-radius: 10px;
+    /* 圓角 */
+    padding: 5px;
+    /* 內邊距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* 陰影效果 */
+    width: 500px;
+    /* 固定寬度 */
+    max-width: 100%;
+    /* 保證容器不超出範圍 */
+    height: 350px;
+    /* 固定高度，保證外框一致 */
+    display: flex;
+    /* 讓內部元素置中 */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* 背景色 */
+}
+
+.detail_img img {
+    max-width: 100%;
+    /* 確保圖片適應容器寬度 */
+    max-height: 100%;
+    /* 限制圖片不超過容器高度 */
+    object-fit: contain;
+    /* 保持比例，不裁剪圖片 */
+    border-radius: 5px;
+    /* 圓角效果 */
+}
+
+
+
+
+/* 當鼠標懸停時，給卡片增加一點動態效果 */
+.index_box03:hover,
+.motor_box01:hover,
+.attr_box01:hover,
+.food_box01:hover,
+.hand_gift_box01:hover {
+    transform: translateY(-5px);
+    /* 向上移動卡片 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    /* 增加陰影 */
+}
+
+.index_btn03 {
+    background-color: var(--color20);
+    /* 椰林綠 */
+    border-color: var(--color20);
+    /* 椰林綠 */
+    width: 150px;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.index_btn03:hover {
+    background-color: var(--color31);
+    /* 金黃色 */
+    border-color: var(--color31);
+    /* 金黃色 */
+}
+
+
+/* all card設定 */
+
+/* 卡片內文字區域 */
+.card-body {
+    text-align: center;
+
+}
+
+/* 設定卡片標題的樣式 */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+/* 設定價格文字的樣式 */
+.card-title.mt-3 {
+    font-size: 1.5rem;
+    color: var(--color29);
+    /* 朱紅色 */
+}
+
+
+/* motor_detail-section 01 (圖片設定) */
+
+#show-img {
+    position: relative;
+    overflow: hidden;
+    /* 確保卡片內容不會超出邊界 */
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+#show-img img {
+    width: 100%;
+    /* 讓圖片寬度填滿父容器 */
+    height: 100%;
+    /* 設定圖片的高度填滿父容器 */
+    object-fit: cover;
+    /* 保持圖片比例並裁切 */
+
+}
+
+#show-img-details img {
+    margin-top: 5px;
+    border: 5px solid var(--color14);
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    /* 保持比例裁剪图片 */
+
+}
+
+
+
+/* all detail-information content */
+
+.inf_content {
+    margin-bottom: 15px;
+    /* 各區塊之間留出間距 */
+}
+
+.inf_title {
+    font-size: 28px;
+    /* 標題文字大小 */
+    font-weight: bolder;
+    /* 加粗標題 */
+    color: var(--color05);
+    /* 標題顏色 */
+    margin-bottom: 5px;
+    /* 標題與內容之間的間距 */
+}
+
+.inf_description {
+    font-size: 22px;
+    /* 內容文字大小 */
+    color: var(--color03);
+    /* 內容文字顏色 */
+    list-style-type: none;
+}
+
+
+/* cart 表格邊框 */
+
+table.table-bordered {
+    border: 2px solid #333;
+    /* 表格外部邊框 */
+}
+
+
+table.table-bordered th,
+table.table-bordered td {
+    border: 1px solid #333;
+    /* 更深的內部邊框顏色 */
+}
+
+
+/* 頁尾 */
+.f-text{
+    color: var(--color29);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+/* 分頁文字設定 */
+
+/* 設定所有選項的文字大小 */
+.nav-tabs .nav-link {
+    color: var(--color24);  /* 設定文字顏色 */
+    font-size: 18px; /* 設定文字大小 */
+}
+
+/* 懸停時文字顏色與大小 */
+.nav-tabs .nav-link:hover {
+    color:var(--color32);  /* 懸停時顏色 */
+    font-size: 20px; /* 懸停時增大文字大小 */
+}
+
+/* 設定選中標籤的文字顏色與大小 */
+.nav-tabs .nav-link.active {
+    color: var(--color29);  /* 選中標籤顏色 */
+    font-size: 20px; /* 選中標籤文字大小 */
+}

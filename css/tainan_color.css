@@ -1,0 +1,86 @@
+:root{
+    /* 01. 台南風配色 (Tainan Style) */
+    --color01: #B5523A; /* 古磚紅 */
+    --color02: #C6A664; /* 古典金 */
+    --color03: #585C59; /* 深沉灰 */
+    --color04: #F4A261; /* 蝦仁粉橘 */
+    --color05: #8C4A2F; /* 甜漬醬棕 */
+    --color06: #FFF9E7; /* 豆花白 */
+    --color07: #95C8D8; /* 鹽田青 */
+    --color08: #77A873; /* 椰林綠 */
+    --color09: #FFB347; /* 黃昏橘 */
+    --color10: #A37BA7; /* 紙傘紫 */
+    --color11: #D94E3D; /* 廟宇紅 */
+    --color12: #36558F; /* 藍染青 */
+    /* 01. 台南風配色 (柔和版 Tainan Style) */
+    --color13: #D07C66; /* 古磚紅（柔和） */
+    --color14: #DCC88A; /* 古典金（柔和） */
+    --color15: #8A8C89; /* 深沉灰（柔和） */
+    --color16: #F7C09E; /* 蝦仁粉橘（柔和） */
+    --color17: #B8745D; /* 甜漬醬棕（柔和） */
+    --color18: #FFFCEF; /* 豆花白（柔和） */
+    --color19: #B6DEE8; /* 鹽田青（柔和） */
+    --color20: #A1C3A0; /* 椰林綠（柔和） */
+    --color21: #FFD1A3; /* 黃昏橘（柔和） */
+    --color22: #C9A5C9; /* 紙傘紫（柔和） */
+    --color23: #F28D82; /* 廟宇紅（柔和） */
+    --color24: #5E78A5; /* 藍染青（柔和） */
+    /* 台南風古色古香配色  */
+    --color25: #D9654F; /* 牆面橘紅 */
+    --color26: #D7B97B; /* 黃土金 */
+    --color27: #3B4C3B; /* 墨綠 */
+    --color28: #C9A14D; /* 古金色 */
+    --color29: #9E1B32; /* 朱紅色 */
+    --color30: #7A7F50; /* 茶葉綠 */
+    /* chatgpt配色  */
+    --color31: #FBBF24; /* 金黃色 */
+    --color32: #1E3A8A; /* 深藍色 */
+    --color33: #F97316; /* 橘紅色 */
+    --color34: #FFFFFF; /* 白色 */
+    --color35: #E0F2FE; /* 淡藍色 */
+    --color36: #F5F5DC; /* 淡米色 */
+
+}
+
+
+/* 自行定義背景色 */
+.bg-color01 { background-color: var(--color01); } /* 古磚紅 (#B5523A) */
+.bg-color02 { background-color: var(--color02); } /* 古典金 (#C6A664) */
+.bg-color03 { background-color: var(--color03); } /* 深沉灰 (#585C59) */
+.bg-color04 { background-color: var(--color04); } /* 蝦仁粉橘 (#F4A261) */
+.bg-color05 { background-color: var(--color05); } /* 甜漬醬棕 (#8C4A2F) */
+.bg-color06 { background-color: var(--color06); } /* 豆花白 (#FFF9E7) */
+.bg-color07 { background-color: var(--color07); } /* 鹽田青 (#95C8D8) */
+.bg-color08 { background-color: var(--color08); } /* 椰林綠 (#77A873) */
+.bg-color09 { background-color: var(--color09); } /* 黃昏橘 (#FFB347) */
+.bg-color10 { background-color: var(--color10); } /* 紙傘紫 (#A37BA7) */
+.bg-color11 { background-color: var(--color11); } /* 廟宇紅 (#D94E3D) */
+.bg-color12 { background-color: var(--color12); } /* 藍染青 (#36558F) */
+.bg-color13 { background-color: var(--color13); } /* 古磚紅（柔和）(#D07C66) */
+.bg-color14 { background-color: var(--color14); } /* 古典金（柔和）(#DCC88A) */
+.bg-color15 { background-color: var(--color15); } /* 深沉灰（柔和）(#8A8C89) */
+.bg-color16 { background-color: var(--color16); } /* 蝦仁粉橘（柔和）(#F7C09E) */
+.bg-color17 { background-color: var(--color17); } /* 甜漬醬棕（柔和）(#B8745D) */
+.bg-color18 { background-color: var(--color18); } /* 豆花白（柔和）(#FFFCEF) */
+.bg-color19 { background-color: var(--color19); } /* 鹽田青（柔和）(#B6DEE8) */
+.bg-color20 { background-color: var(--color20); } /* 椰林綠（柔和）(#A1C3A0) */
+.bg-color21 { background-color: var(--color21); } /* 黃昏橘（柔和）(#FFD1A3) */
+.bg-color22 { background-color: var(--color22); } /* 紙傘紫（柔和）(#C9A5C9) */
+.bg-color23 { background-color: var(--color23); } /* 廟宇紅（柔和）(#F28D82) */
+.bg-color24 { background-color: var(--color24); } /* 藍染青（柔和）(#5E78A5) */
+.bg-color25 { background-color: var(--color25); } /* 牆面橘紅 (#D9654F) */
+.bg-color26 { background-color: var(--color26); } /* 黃土金 (#D7B97B) */
+.bg-color27 { background-color: var(--color27); } /* 墨綠 (#3B4C3B) */
+.bg-color28 { background-color: var(--color28); } /* 古金色 (#C9A14D) */
+.bg-color29 { background-color: var(--color29); } /* 朱紅色 (#9E1B32) */
+.bg-color30 { background-color: var(--color30); } /* 茶葉綠 (#7A7F50) */
+.bg-color31 { background-color: var(--color31); } /* 金黃色 (#FBBF24) */
+.bg-color32 { background-color: var(--color32); } /* 深藍色 (#1E3A8A) */
+.bg-color33 { background-color: var(--color33); } /* 橘紅色 (#F97316) */
+.bg-color34 { background-color: var(--color34); } /* 白色 (#FFFFFF) */
+.bg-color35 { background-color: var(--color35); } /* 淡藍色 (#E0F2FE) */
+.bg-color36 { background-color: var(--color36); } /* 淡米色 (#F5F5DC) */
+
+
+
+
